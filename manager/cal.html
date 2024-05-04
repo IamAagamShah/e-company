@@ -1,0 +1,132 @@
+<?php
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/da.css">
+    <title>calander</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .tako{
+            background-color: white;
+            width: 50%;
+            height: auto;
+            margin-left: 20px;
+            margin-top: 10px;
+            float: left;
+        }
+        .tako1{
+            margin: 30px;
+        }
+        td {
+            text-align: center;
+        }
+        .chiku{
+            width : 14.28%;
+            padding: 15px;
+        }
+        .aashi{
+            background-color: white;
+            padding: 15px;
+            height: auto;
+            margin-left: 340px;
+            margin-top: 160px;
+            float: left;
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        .aashi1{
+            background-color: white;
+            padding: 15px;
+            height: auto;
+            margin-left: 350px;
+            margin-top: 400px;
+            float: left;
+            font-size: 30px;
+            font-weight: bolder;
+            border-radius: 50%;
+        }
+        .aashi2{
+            background-color: white;
+            padding: 15px;
+            height: auto;
+            margin-left: 20px;
+            margin-top: 190px;
+            float: left;
+            font-size: 30px;
+            font-weight: bolder;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body style="background-color: #EEEEEE;">
+    <div class="fpilore">
+        <center>
+            <img src="../image/logo1.png" alt="noimage" class="dlogo">
+        </center>
+        <center>
+                <li class="fbut" title="Modules" style="background-color: #3366CC;">
+                    <img src="../image/p1.png" alt="nobutton" class="fbutim" >
+                </li>
+        </center>
+        <center>
+            <a href="C_dashboard.php">
+                <li class="fbut" title="User Profile">
+                    <img src="../image/p2.svg" alt="nobutton" class="fbutim">
+                </li>
+            </a>
+        </center>
+        <center>
+            <a href="taskmanager.php">
+                <li class="fbut" title="Task Manager">
+                    <img src="../image/p4.svg" alt="nobutton" class="fbutim">
+                </li>
+            </a>
+        </center> 
+        <center>
+            <a href="../logout.php">
+                <li class="fbut" title="Logout">
+                    <img src="../image/p3.svg" alt="nobutton" class="fbutim">
+                </li>
+            </a>
+        </center>  
+    </div>
+    <div class="module">
+        <a href="addman.php"><li class="modany">Add</li></a>
+        <a href="shiftman.php"><li class="modany">Shift</li></a>
+        <a href="leaveapprovman.php"><li class="modany">Leave approval</li></a>
+        <li class="modany" style="background-color: #EEEEEE; color: #3423CA;">Managers</li>
+        <a href="manattendance.php"><li class="modany">Manager Attendance</li></a>
+    </div>
+    <div class="aashi1">
+        <a>&#10094;</a>
+    </div>
+    <div class="aashi">
+        March
+    </div>
+    <center>
+        <div class="tako">
+            <table class="tako1">
+                <tr style="background-color: #3423ca; color: white; font-size: 20px;">
+                    <td style="padding: 15px; width : 14.28%;">Sunday</td>
+                    <td style="padding: 15px; width : 14.28%;">Monday</td>
+                    <td style="padding: 15px; width : 14.28%;">Tuseday</td>
+                    <td style="padding: 15px; width : 14.28%;">Wednsday</td>
+                    <td style="padding: 15px; width : 14.28%;">Thursday</td>
+                    <td style="padding: 15px; width : 14.28%;">Friday</td>
+                    <td style="padding: 15px; width : 14.28%;">Saterday</td>
+                </tr>
+            </table>
+        </div>
+    </center>
+    <div class="aashi2">
+        <a>&#10095;</a>
+    </div>
+</body>
+</html>
